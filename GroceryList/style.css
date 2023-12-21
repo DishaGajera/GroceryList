@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: chocolate;
+    font-style: italic;
+}
+
+.container {
+    border: 1px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.grocery {
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background: white;
+    box-shadow: 10px 10px 25px 0 color(xyx rgba(9, 10, 1, 0.839) green blue);
+}
+
+.grocery h1 {
+    font-size: 2.5rem;
+    margin-top: 1em;
+    color: green;
+}
+
+.grocery i {
+    font-size: 2rem;
+    color: chocolate;
+}
+
+.grocery input {
+    font-style: italic;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#list {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
